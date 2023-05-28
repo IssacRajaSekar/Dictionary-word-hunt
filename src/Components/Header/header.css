@@ -1,0 +1,36 @@
+.title{
+    font-size:4vw;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+@media (max-width:600px){
+    .header{
+        height:35vw;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .input{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+    }
+}
+
+.select,.search{
+    width:40%
+}
